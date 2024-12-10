@@ -1,5 +1,4 @@
-// internal/product.go
-package internal
+package model
 
 type Product struct {
 	ID          uint16  `json:"id"`
