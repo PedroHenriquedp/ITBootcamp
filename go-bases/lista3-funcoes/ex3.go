@@ -15,7 +15,7 @@ func calcularSalario(minutosTrabalhados int, categoria string) float64 {
 		salario = salarioBase + (salarioBase * 0.20)
 		return salario
 	}
-	if categoria == "A" { 
+	if categoria == "A" {
 		salarioBase := horasTrabalhadas * 3000.0
 		salario = salarioBase + (salarioBase * 0.50)
 		return salario
@@ -31,4 +31,3 @@ func main() {
 
 	fmt.Printf("O valor do resultado de quanto o trabalhador ira receber e %.2f\n", resultado)
 }
-

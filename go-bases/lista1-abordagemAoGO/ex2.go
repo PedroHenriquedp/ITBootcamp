@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var temp uint8	
+	var temp uint8
 	var umidade uint8
-	var press float32	
+	var press float32
 
 	temp = 29
 	umidade = 58
@@ -13,6 +13,5 @@ func main() {
 
 	fmt.Println(temp)
 	fmt.Println(umidade)
-	fmt.Println(press) 
+	fmt.Println(press)
 }
-

@@ -8,4 +8,3 @@ func TestMediaDaNota(t *testing.T) {
 		t.Errorf("A media foi calculada errada, valor Esperado: %.2f, valor recebido %.2f", 2.5, notaRecebida)
 	}
 }
-

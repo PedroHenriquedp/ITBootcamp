@@ -52,4 +52,3 @@ func main() {
     fmt.Printf("Preço do produto médio: %.2f\n", mediumProduct.Price())
     fmt.Printf("Preço do produto grande: %.2f\n", largeProduct.Price())
 }
-

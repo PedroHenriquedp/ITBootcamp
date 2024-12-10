@@ -11,8 +11,7 @@ func CalcularImposto(salario float64) float64 {
 		imposto = salario * 0.17
 		return imposto
 	}
-	
+
 	imposto = salario * 0.27
 	return imposto
 }
-

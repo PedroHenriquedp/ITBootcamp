@@ -24,19 +24,18 @@ func main() {
 
 	fmt.Print("Esta empregado?\n")
 	fmt.Scan(&empregado)
-	
+
 	fmt.Print("Ha quanto tempo esta trabalhando?\n")
 	fmt.Scan(&empregoTemp)
-	
+
 	if(idadeCliente >= 22 && empregado == true && empregoTemp >= 1 && salario >= 100000) {
 		fmt.Print("Aprovado sem juros\n")
 		return
 	}
-	
+
 	if(idadeCliente >= 22 && empregado == true && empregoTemp >= 1) {
 		fmt.Print("Aprovado com juros\n")
 		return
 	}
 	fmt.Print("Nao esta apto!\n")
 }
-

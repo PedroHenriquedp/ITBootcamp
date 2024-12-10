@@ -10,4 +10,3 @@ func CalcularMedia(notas ...float64) float64{
 
 	return mediaFinal
 }
-

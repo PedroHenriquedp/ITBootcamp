@@ -35,7 +35,7 @@ func getById(id int) *Product {
 func main() {
     product1 := Product{ID: 1, Name: "Chocolate", Price: 10.0, Description: "Delicious dark chocolate", Category: "Candy"}
     product2 := Product{ID: 2, Name: "Soda", Price: 5.0, Description: "Refreshing soda", Category: "Beverage"}
-    
+
     product1.Save()
     product2.Save()
 
@@ -51,4 +51,3 @@ func main() {
         fmt.Printf("Produto com ID %d não encontrado.\n", idToFind)
     }
 }
-

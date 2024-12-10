@@ -17,4 +17,3 @@ func main() {
 	resultado := calcularImposto(salario)
 	fmt.Printf("O imposto a ser pago pelo salario e de %.2f\n", resultado)
 }
-

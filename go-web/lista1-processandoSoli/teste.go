@@ -26,9 +26,9 @@ func main() {
 	defer file.Close()
 
 	enconder := json.NewEncoder(file)
-	
+
 	// Escrever cada aluno como uma linha JSON
-	
+
 	for _, aluno := range alunos {
 		err := encoder.Encode(aluno)
 		if err != nil {

@@ -16,7 +16,7 @@ func TestCalcularImpostoAbaixo50000(t *testing.T) {
 func TestCalcularImpostoEntre50000E150000(t *testing.T){
 	salario := 100000.0
 	impostoEsperado := salario * 0.17
-	
+
 	impostoCalculado := CalcularImposto(salario)
 
 	if impostoCalculado != impostoEsperado {
@@ -34,4 +34,3 @@ func TestCalcularImpostoAcima150000(t *testing.T) {
 		t.Errorf("Imposto incorreto para salario acima de 150000. Esperado: %.2f e valor obtido: %.2f", impostoEsperado, impostoCalculado)
 	}
 }
-

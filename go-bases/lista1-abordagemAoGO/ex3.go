@@ -7,4 +7,3 @@ lastName = 6
 driverLicense := true
 var personHeight int
 childsNumber := 2
-

@@ -9,4 +9,3 @@ func main() {
 	fmt.Println(nome)
 	fmt.Println(endereco)
 }
-
