@@ -26,6 +26,16 @@ func GetProducts() []model.Product {
 	return products
 }
 
-func AddProduct(newProduct model.Product, products []model.Product) {
+func AddProduct(newProduct model.Product) {
 	products = append(products, newProduct)
+}
+
+func SaveProducts(products []model.Product) error {
+	byteValueJson, err := json.Marshal(products)
+	if err != nil {
+		return err
+	}
+
+	err = os.WriteFile("/Users/peddpereira/Desktop/Project/bootcamp/go-web/api/cmd/api/products.json", byteValueJson, 0644)
+	return err
 }

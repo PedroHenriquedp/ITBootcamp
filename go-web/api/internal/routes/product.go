@@ -17,6 +17,7 @@ func ProductRoutes() chi.Router {
 	rt.Get("/products", controller.GetProductsHandler)
 	rt.Get("/products/{id}", controller.GetProductsByIDHandler)
 	rt.Post("/products", controller.CreateProductHandler)
+	rt.Put("/products", controller.UpdateProductHandler)
 
 	return rt
 }
